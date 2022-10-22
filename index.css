@@ -1,0 +1,192 @@
+
+body {
+   margin: 0;
+   padding: 0;
+   display: flex;
+   min-height: 100vh;
+   align-items: center;
+   justify-content: center;
+   background: gray;
+   font-family: sans-serif;
+}
+.container {
+    border: 10px;
+    text-align: center;
+}
+.text {
+    color: #fff;
+    letter-spacing: 1px;
+    margin: 10px;
+}
+.page {
+    width: 450px;
+    background: #fff;
+   
+    padding-bottom: 20px;
+}
+.title {
+    padding: 40px 0;
+    text-transform: capitalize;
+    font-size: 80px;
+    font-family: 'Cookie', cursive;
+
+}
+form {
+    border: 1px;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+}
+form input {
+    margin-bottom: 5px;
+    border: 1px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    outline: none;
+    border-radius: 5px;
+}
+form input:focus {
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    background: #efefef
+}
+input[type="text"],input[type="Password"] {
+    padding-left: 10px;
+    position: relative;
+    height: 35px;
+    font-size: 17px;
+}
+input::placeholder {
+    font-weight: normal;
+    font-size: 13px;
+    transition: 0.3% ease;
+}
+input:focus::placeholder {
+    position: absolute;
+    margin: 10px;
+    font-size: 20px;
+    transform: translateX(-15px);
+}
+form button {
+    border: none;
+    background: #043fff;
+    padding: 5px 0;
+    margin-top: 5px;
+    color: #fff;
+    border-radius: 3px;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    outline: none;
+    cursor: pointer;
+}
+form button :active {
+    background: #2c58fe;
+    transform: scale(0.995);
+}
+form .Option {
+    color: #5a5a5a;
+    margin: 10px 0;
+    font-weight: bold;
+    position: relative;
+}
+form .Option::before {
+    padding: absolute;
+    content: "";
+    width: 37px;
+    height: 2px;
+    background-color: #b6b6b6;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50px;
+}
+form .Option::after {
+    padding: absolute;
+    content: "";
+    width: 37px;
+    height: 2px;
+    background-color: #b6b6b6;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50px;
+}
+.fblink {
+    margin-top: 15px;
+    width: 100%;
+}
+.fblink span {
+    font-size: 18px;
+    color: #021897;
+    margin-right: 5px;
+}
+.fblink a {
+    text-decoration: none;
+    width: block;
+    color: #021897;
+}
+.forget {
+    margin: 15px;
+}
+.forget{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+}
+.signup {
+    width: 450px;
+    height: 50px;
+    background: #fff;
+    margin-top: 10px;
+    padding-top: 4px; 
+}
+.signup a {
+    color: #008aff;
+    font-size: 16px;
+    align-items: center;
+    align-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.get {
+    font-size: 20px;
+    width: 450px;
+    height: 150px;
+    
+    margin-top: 10px;
+    padding-top: 4px; 
+}
+.upon {
+    display: flex;
+    margin-top: 10px;
+    border-radius: 2px;
+    width: 450px;
+    height: 70px;
+ 
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-top: 4px;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+}
+.one {
+    background-image: url(./Googleapp.PNG);
+    background-size: cover;
+    width: 150px;
+    height: 25px;
+    padding: 23px;
+}
+.two {
+    margin: 5px;
+    background-image: url(./Googleplay.png);
+    background-size: cover;
+    width: 150px;
+    height: 25px;
+    padding: 23px;
+}
